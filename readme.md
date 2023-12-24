@@ -19,3 +19,9 @@
 1. Run `mandrake-server.py <command> [arg1 [arg2 [...]]]` in the project directory,
    where `<command>` and `[argN]` the command and its arguments to run in the docker
    container.
+
+
+## TODO
+
+- Remove rsync dependency
+- Rebuild in a less rubbish way maybe in rust also
