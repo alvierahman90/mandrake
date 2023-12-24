@@ -1,0 +1,31 @@
+[defaults]
+username = "alvie"
+password = "passoword"
+try-multiple = false
+run-local = true
+output = "out"
+
+[[remotes]]
+name = "a2"
+host = "alvps2"
+default = false
+
+[remotes.ssh]
+host = "alvps2"
+
+[[remotes]]
+name = "gareth"
+host = "http://gareth:5000"
+default = false
+
+[remotes.ssh]
+host = "gareth"
+
+[[remotes]]
+name = "local"
+host = "http://localhost:5000"
+default = true
+job-id = "dc1f1627-7fb9-4bca-989c-535eb79bc899"
+
+[remotes.ssh]
+host = "alvie@localhost"

@@ -1,0 +1,2 @@
+docker-daemon-url = "unix:///var/run/docker.sock"
+context-dir = "/home/alvie/Documents/projects/mandrake/context_dir"
